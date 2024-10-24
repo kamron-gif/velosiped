@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --global: #F57520;
+}
+
+body {
+    background-color: gray;
+}
+
+.header {
+    background-image: url(1.png);
+    height: 40%;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main-item {
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 0;
+
+}
+
+
+.Велосипеды {
+    border-radius: 20px;
+    background-image: url(pngwing\ \(2\).png);
+    position: relative;
+    background-color: orange;
+    padding-left: 80px;
+    background-position: right;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100%;
+    padding-top: 122px;
+}
+
+.main-text {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    color: #fff;
+
+}
+
+.Trade-in {
+    margin-top: 20px;
+    width: 30%;
+    background-image: url(./pngwing\ 2\ \(1\).png);
+    height: 458px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: bottom;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 20px;
+}
+
+.Trade-in h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+
+}
+
+.right-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bottom-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-wrappercard {
+    border-radius: 20px;
+    width: 47%;
+    height: 216px;
+    background-color: black;
+    color: #fff;
+    background-image: url(./pngwing\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-list li a {
+
+    color: white;
+}
+
+.header-list li a:hover {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #F57520;
+    transition: 0.5s;
+}
+
+.header-item {
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    color: white;
+
+
+}
+
+.header-text {
+    width: 679px;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header-info {
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+}
+
+.header-btn {
+    width: 150px;
+    padding: 20px 0;
+    background-color: var(--global);
+    color: white;
+    border-radius: 5px;
+}
+
+.img2 {
+    background-image: url(pngwing\ \(4\).png);
+    background-position: bottom right;
+}
+
+.img3 {
+    background-image: url(image\ 40\ \(1\).png);
+}
+
+.im4 {
+    background-image: url(image\ 39.png);
+}
+
+/*Section 2*/
+.section2-item {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box:hover {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F57520;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.sec2-wrapper-img {
+    width: 400px;
+    height: 195px;
+}
+
+.sec2-wrapper-text {
+    width: 360px;
+    margin-bottom: 80px;
+}
+
+.section2-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.input-box {
+    width: 290px;
+    height: 46px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.sec3-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    width: 602px;
+    margin-top: 40px;
+}
+
+.section3 {
+    background-image: url(image\ 86.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F57520;
+}
+
+.form {
+    width: 602px;
+    margin-top: 90px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.big-input {
+    width: 602px;
+    height: 120px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sec3-btn {
+    background-color: white;
+    width: 602px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #101010;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 30px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-list li a {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: left;
+    color: white;
+
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+
+}
